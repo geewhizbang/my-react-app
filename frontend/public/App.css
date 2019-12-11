@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: navy;
+}
+
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.loginContainer {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    width: 300px;
+    background: silver;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.login .ctrl {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 0;
+  width: calc(100% - 40px);
+}
+
+.login title {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  display: block;
+  padding: 6px;
+  width: calc(100% - 12px);
+  margin-bottom: 15px;
+  background: gray;
+}
+
+.login .errorMessage {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 0;
+  font-size: 12px;
+  color: #AA0000;
+  width: calc(100% - 40px);
+}
+
+.ctrl label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+
+.login button {
+   float: right;
+   margin: 20px;
+}
+
+.ctrl input {
+  display: block;
+  width: 100%;
+}
+
+.hide {
+  display: none !important;
+}
+
+.login .loginResult {
+  width: calc(100% - 40px);
+  margin-left: 20px;
+}
+
+.login .loginResult > span {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 10px;
+}
